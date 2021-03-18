@@ -117,5 +117,7 @@ public class MainActivity extends AppCompatActivity {
   recyclerView.setAdapter(myAdpter);
   ItemTouchHelper itemTouchHelper=new ItemTouchHelper(new CallBack());
   itemTouchHelper.attachToRecyclerView(recyclerView);
+
+
  }
 }
