@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/tv_main"
+        android:textSize="34sp"
+        android:text="删 除"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toRightOf="@id/ll_main"
+        app:layout_constraintTop_toTopOf="@id/ll_main"
+        app:layout_constraintBottom_toBottomOf="@id/ll_main"
+        android:layout_width="180dp"
+        android:layout_height="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

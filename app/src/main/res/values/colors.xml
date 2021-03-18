@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text57">#0074FF</color>
+    <color name="text58">#03DAC5</color>
+    <color name="txtnumber">#03DAC5</color>
+    <color name="buyvip">#03DAC5</color>
 </resources>
